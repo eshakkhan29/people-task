@@ -16,8 +16,8 @@ function App() {
       });
   }, []);
   return (
-    <div className="grid w-full h-[100vh] content-center justify-center" >
-      <div className="w-[1000px] my-10 rounded-lg bg-slate-200">
+    <div className="grid w-full content-center justify-center" >
+      <div className="w-[1000px] my-10 rounded-lg bg-slate-100">
         {data.results?.map((item, i) => <InfoList data={item} key={i} />)}
       </div>
     </div>
