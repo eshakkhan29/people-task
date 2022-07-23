@@ -6,16 +6,16 @@ const InfoList = ({ data }) => {
     return (
         <div className="mx-5 px-4 py-12 bg-white shadow-sm h-auto rounded-3xl  my-4">
             <div className="flex justify-between items-center ">
-                <p className="text-gray-600 text-sm">{name}</p>
-                <div>
+                <p className="w-1/5 text-gray-600 text-sm">{name}</p>
+                <div className='w-1/5'>
                     <h2 className='font-medium'>Gender</h2>
                     <p className="text-gray-600 text-sm">{gender}</p>
                 </div>
-                <div>
+                <div className='w-1/5'>
                     <h2 className='font-medium'>Birth Year</h2>
                     <p className="text-gray-600 text-sm">{year}</p>
                 </div>
-                <div>
+                <div className='w-1/5'>
                     <h2 className='font-medium'>Height</h2>
                     <p className="text-gray-600 text-sm">{height} cm</p>
                 </div>
