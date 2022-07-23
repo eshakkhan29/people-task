@@ -26,7 +26,7 @@ const InfoList = ({ data }) => {
                     View Details
                 </button>
             </div>
-            {details && <div className="w-full p-5 mt-5 shadow mx-auto rounded-md">
+            {details && <div className="w-full p-5 mt-5 shadow mx-auto rounded-3xl">
                 <h2 className='font-medium'>Description</h2>
                 <p className="text-gray-600 text-sm my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
 
